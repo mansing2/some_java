@@ -42,7 +42,7 @@
         <junit printsummary="yes">
         <classpath refid="classpath" />
         <classpath location="test"/>
-        <classpath location="lib/ant-junit4.jar"/>
+        <classpath location="lib/ant-junit.jar"/>
 	<test name="hellotest" haltonfailure="no" todir="test/results">
         <formatter type="plain"/>
         <formatter type="xml"/>
